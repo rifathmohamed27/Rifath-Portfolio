@@ -1,0 +1,32 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.py-5 h4,
+p{
+    font-family: 'Playfair Display', serif;
+}
+.card-body{
+    font-family: 'Merriweather', serif;
+}
+.col-12 h4
+{
+    font-family: 'Poppins', sans-serif;
+}
+.card-title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.banner{
+    background-image: url("https://media.istockphoto.com/id/1188312687/photo/white-office-desk-table-with-laptop-computer.jpg?s=2048x2048&w=is&k=20&c=bJB9X1dpho4sFFdJu1BQTj2L3__PgZqgDhdwRZjaISI=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 212px ;
+}
+.card {
+    height: 100%;
+    border: 1px solid #f4f3f3;
+    border-radius: 10px; 
+    overflow: hidden; 
+  }
+  
+  
