@@ -13,14 +13,14 @@ p{
     font-family: 'Poppins', sans-serif;
 }
 .custom-text-color{
-    color: black;
+    color: lightslategrey;
 }
 .card-title{
     text-transform: uppercase;
     font-weight: bold;
 }
 .banner{
-    background-image: url(./imgs/bg6.jpg);
+    background-image: url(./imgs/final.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 212px ;
