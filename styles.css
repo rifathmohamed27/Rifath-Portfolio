@@ -19,6 +19,33 @@ p{
     text-transform: uppercase;
     font-weight: bold;
 }
+body {
+    margin: 0;
+}
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: black; /* Change to your desired color */
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.nav-link.active::after,
+.nav-link:hover::after {
+    width: 100%;
+    left: 0;
+}
+
 .banner{
     background-image: url(./imgs/final.jpg);
     background-size: cover;
